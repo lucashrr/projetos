@@ -21,8 +21,8 @@
 }
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
@@ -31,22 +31,29 @@ body{
 }
 
 div.bar-top{
-    width: 1100px;
     margin: auto;
     padding: 10px;
+    background-color: var(--cor005);
 }
 
-div.bar-top-nav img{
-    width: 20px;
-}
 
-div.bar-top p{
+div.bar-top-nav a{
     color: white;
+    padding: 10px;
+    margin-left: 118px;
+    text-decoration: none;
     font-weight: bold;
+}
+
+div.bar-top-nav a:hover{
+    background-color: var(--cor002);
+    color: var(--cor004);
 }
 
 header{
     background-color: var(--cor003);
+    background-image: url(imagens/banner.jpg);
+    background-position: center center;
     padding: 30px;
 }
 
@@ -54,5 +61,35 @@ header > h1{
     font-family: var(--fonte001);
     font-weight: lighter;
     color: white;
-    text-align: center;
+    text-align: left;
+    margin-left: 150px;
 }
+
+nav.bar-nav{
+    background-color: var(--cor005);
+}
+
+nav.bar-nav a{
+    text-decoration: none;
+    color: white;
+    padding: 17px;
+    font-weight: bold;
+}
+
+nav.bar-nav a:hover{
+    background-color: var(--cor002);
+    color: var(--cor004);
+}
+
+.centralizar{
+    margin-left: 110px;
+    padding: 17px;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    max-width: 1092px;
+}
+
