@@ -110,6 +110,7 @@ main{
 main h1{
     color: var(--cor002);
     font-family: var(--fontedestaque);
+    font-size: 2em;
 }
 
 main h2{
