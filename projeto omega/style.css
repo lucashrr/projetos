@@ -9,11 +9,11 @@
 }
 
 :root{
-    --cor001: #BCDFEB;
-    --cor002: #6EA5B8;
-    --cor003: #357185;
-    --cor004: #104152;
-    --cor005: #00171F;
+    --cor001: #E900FA;
+    --cor002: #BC28C7;
+    --cor003: #8E3B94;
+    --cor004: #5E3A61;
+    --cor005: #372938;
 
     --fontepadrao: Arial, Helvetica, sans-serif;
     --fontedestaque: 'Rajdhani', sans-serif;
@@ -31,23 +31,27 @@ body{
 }
 
 div.bar-top{
-    margin: auto;
-    padding: 10px;
     background-color: var(--cor005);
 }
 
-
-div.bar-top-nav a{
-    color: white;
-    padding: 10px;
-    margin-left: 118px;
+div.bar-top a{
     text-decoration: none;
+    color: white;
     font-weight: bold;
+    padding: 10px;
+}
+
+div.bar-top-nav{
+    max-width: 1095px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin: auto;
 }
 
 div.bar-top-nav a:hover{
-    background-color: var(--cor002);
-    color: var(--cor004);
+    background-color: var(--cor003);
+    color: var(--cor005);
 }
 
 header{
@@ -57,33 +61,41 @@ header{
     padding: 30px;
 }
 
-header > h1{
+header a{
     font-family: var(--fonte001);
     font-weight: lighter;
     color: white;
-    text-align: left;
-    margin-left: 150px;
+    font-size: 35px;
+}
+
+div.adaptar{
+    max-width: 1095px;
+    margin: auto;
 }
 
 nav.bar-nav{
     background-color: var(--cor005);
 }
 
+
 nav.bar-nav a{
     text-decoration: none;
     color: white;
-    padding: 17px;
     font-weight: bold;
+    padding: 17px;
 }
 
 nav.bar-nav a:hover{
-    background-color: var(--cor002);
-    color: var(--cor004);
+    background-color: var(--cor004);
 }
 
 .centralizar{
-    margin-left: 110px;
-    padding: 17px;
+    background-color: var(--cor003);
+    max-width: 1095px;
+    margin: auto;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 17px;
 }
 
 main{
@@ -91,5 +103,59 @@ main{
     padding: 10px;
     margin: auto;
     max-width: 1092px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
+
+main h1{
+    color: var(--cor002);
+    font-family: var(--fontedestaque);
+}
+
+main h2{
+    font-family: var(--fontedestaque);
+    color: var(--cor003);
+    margin-top: 25px;
+}
+
+main h3{
+    font-family: var(--fontedestaque);
+    color: var(--cor003);
+    margin-top: 25px;
+}
+
+main p{
+    font-family: var(--fontepadrao);
+    text-align: justify;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    word-spacing: 10px;
+    text-indent: 20px;
+}
+
+div.centerimage{
+    text-align: center;
+}
+
+footer{
+    margin-top: 10px;
+    background-color: #251d25;
+    padding: 5px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: var(--cor002);
+}
+
 
