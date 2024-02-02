@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto omega</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <i class="fa-solid fa-circle-info"></i>
 </head>
 <body>
     <div class="bar-top">
-        <div class="bar-top-nav">
-            <a href="#">Sobre</a>
+        <div class="bar-top__center">
+            <div class="bar-top-nav">
+                <div class="bar-top__if">
+                    <span class="fa fa-book"></span>
+                    <a href="#">Sobre</a>
+                </div>
+                <div class="bar-top-language">
+                    <span class="fa fa-globe"></span>
+                    <button>Português Brasil</button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -20,14 +33,23 @@
     </header>
 
     <nav class="bar-nav">
-        <div class="centralizar">
-            <a href="#">Não sei</a>
-            <a href="#">Não sei</a>
-            <a href="#">Não sei</a>
+        <div class="siderbar">
+            <div class="centralizar">
+                <a href="#">Não sei</a>
+                <a href="#">Não sei</a>
+                <a href="#">Não sei</a>
+            </div>
+
+            <div class="nav__search">
+                <input type="text" maxlength="800" placeholder="Pesquise...">
+                <div class="search">
+                    <img src="imagens/search.png" alt="">
+                </div>
+            </div>
         </div>
     </nav>
 
-    <main>
+    <main class="main-content">
         <section>
             <article>
                 <h1>A EVOLUÇÃO DOS JOGOS</h1>

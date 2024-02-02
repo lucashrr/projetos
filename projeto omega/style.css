@@ -38,20 +38,45 @@ div.bar-top a{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    padding: 10px;
+}
+
+.bar-top__center {
+    margin: auto;
+    max-width: 1112px;
 }
 
 div.bar-top-nav{
-    max-width: 1095px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    margin: auto;
+    max-width: 1112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-div.bar-top-nav a:hover{
-    background-color: var(--cor003);
-    color: var(--cor005);
+.bar-top__if{
+    padding: 10px;
+    width: 70px;
+}
+
+.bar-top__if span {
+    color: #fff;
+}
+
+.bar-top__if:hover{
+    background-color: #885e8b;
+}
+
+.bar-top-language {
+    padding: 10px;
+    width: 120px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.bar-top-language button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
 }
 
 header{
@@ -75,6 +100,9 @@ div.adaptar{
 
 nav.bar-nav{
     background-color: var(--cor005);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -87,18 +115,60 @@ nav.bar-nav a{
 
 nav.bar-nav a:hover{
     background-color: var(--cor004);
+    transform: scale(1.04);
+}
+
+.siderbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor003);
+    width: 1112px;
+    margin: auto;
+}
+
+.siderbar .nav__search {
+    border: 1px solid transparent;
+    background-color: var(--cor004);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 15px;
+}
+
+.siderbar .nav__search input {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.siderbar .nav__search .search {
+    padding: 14px 21px;
+    background-color: var(--cor003);
+}
+
+.siderbar .nav__search .search:hover {
+    background-color: hsl(295, 21%, 49%);
+    transform: scale(1.04);
+
+}
+
+.siderbar .nav__search .search img {
+    width: 19px;
 }
 
 .centralizar{
     background-color: var(--cor003);
-    max-width: 1095px;
-    margin: auto;
+    max-width: 1092px;
     padding-top: 17px;
     padding-bottom: 17px;
-    padding-right: 17px;
 }
 
-main{
+.main-content{
     background-color: white;
     padding: 10px;
     margin: auto;

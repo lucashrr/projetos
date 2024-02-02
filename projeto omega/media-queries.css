@@ -1,0 +1,30 @@
+@media screen and (max-width: 750px) {
+    .centralizar {
+        padding: 12px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    nav.bar-nav a {
+        padding: 12px;
+    }
+
+    .adaptar {
+        text-align: center;
+    }
+
+    .nav__search {
+        width: 180px;
+        height: 39px;
+    }
+
+    .siderbar .nav__search .search {
+        padding: 10px 16px;
+    }
+
+    .siderbar .nav__search .search img {
+        width: 16px;
+    }
+
+    
+}
