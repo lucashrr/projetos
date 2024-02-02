@@ -204,6 +204,10 @@ main p{
     text-indent: 20px;
 }
 
+.main-content .text {
+    line-height: 25px;
+}
+
 div.centerimage{
     text-align: center;
 }
