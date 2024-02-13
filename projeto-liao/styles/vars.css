@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'wolf';
+    src: url(../assets/fonts/MANIFESTO.ttf) format(Truetype);
+}
+
+@font-face {
+    font-family: 'cover';
+    src: url(../assets/fonts/GlacialIndifference-Regular.otf) format(Opentype);
+}
+
+:root {
+    --font-cover: 'cover', sans-serif;
+    --font-wolf: 'wolf', sans-serif;
+}

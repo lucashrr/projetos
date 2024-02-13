@@ -1,0 +1,29 @@
+body {
+    background-color: #000;
+}
+
+.bar-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar-menu a {
+    text-decoration: none;
+    font-family: var(--font-wolf);
+    color: white;
+}
+
+.bar-menu button{
+
+}
+
+
+.capa {
+    background-image: url(../assets/imagens/capa-tower.jpeg);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    margin: auto;
+}
