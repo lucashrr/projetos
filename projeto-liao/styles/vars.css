@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'wolf';
     src: url(../assets/fonts/MANIFESTO.ttf) format(Truetype);
+    font-weight: bold;
 }
 
 @font-face {

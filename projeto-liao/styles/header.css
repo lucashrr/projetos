@@ -1,29 +1,52 @@
 body {
     background-color: #000;
+    background-image: url(../assets/imagens/capa-nortune.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.bar-menu{
+.bar-header {
     display: flex;
     justify-content: space-between;
 }
 
-.bar-menu a {
+.bar-header a {
     text-decoration: none;
     font-family: var(--font-wolf);
     color: white;
+    margin-left: 10px;
 }
 
-.bar-menu button{
-
+.bar-header a:hover {
+    transform: scale(1.04);
+    color: white;
 }
 
-
-.capa {
-    background-image: url(../assets/imagens/capa-tower.jpeg);
-    background-repeat: no-repeat;
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
-    border: 1px solid #fff;
-    margin: auto;
+.bar-header .bar-login {
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    background-color: #444661;
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,0 100%);
+    position: relative;
 }
+
+.bar-header .bar-login button{
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.bar-header .bar-login:hover {
+    background-color: white;
+    border: 2px solid #444661;
+    padding: 8px;
+    transform: scale(1.04);
+}
+
