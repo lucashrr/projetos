@@ -10,11 +10,11 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-track {
-    background: #292a3a;        /* color of the tracking area */
+    background: var(--cor-05);        /* color of the tracking area */
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: #444661;    /* color of the scroll thumb */
+    background-color: var(--cor-04);    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
   }
 
@@ -38,7 +38,7 @@ body::-webkit-scrollbar {
 
 .bar-header a:hover {
     transform: scale(1.04);
-    color: #929292;
+    color: var(--cor-03);
 }
 
 .bar-header .bar-login {
@@ -47,7 +47,7 @@ body::-webkit-scrollbar {
     cursor: pointer;
     font-weight: bolder;
     text-align: center;
-    background-color: #444661;
+    background-color: var(--cor-02);
     clip-path: polygon(0 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,0 100%);
     position: relative;
     margin-right: 30px ;
@@ -65,7 +65,7 @@ body::-webkit-scrollbar {
 
 .bar-header .bar-login:hover {
     background-color: white;
-    border: 2px solid #444661;
+    border: 2px solid var(--cor-02);
     padding: 8px;
     transform: scale(1.04);
 }
@@ -93,7 +93,7 @@ main {
 }
 
 .content .content__tible span {
-    color: #444661;
+    color: var(--cor-02);
 }
 
 

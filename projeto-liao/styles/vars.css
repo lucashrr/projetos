@@ -12,4 +12,10 @@
 :root {
     --font-cover: 'cover', sans-serif;
     --font-wolf: 'wolf', sans-serif;
+
+    --cor-01: #FF6B1A;
+    --cor-02: #B33F00;
+    --cor-03: #662400;
+    --cor-04: #00B3AD;
+    --cor-05: #006663;
 }
