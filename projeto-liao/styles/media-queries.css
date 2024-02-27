@@ -1,7 +1,21 @@
 @media screen and (max-width: 750px) {
+    .bar-header .bar-menu {
+        margin-left: 20px;
+    }
+
+    .bar-header .bar-login {
+        margin-left: 10px;
+    }
+
+    .content {
+        margin-left: 30px;
+    }
+    
     .content .content__tible {
         font-size: 1.9em;
-        width: 350px;
         line-height: 20px;
+        margin-right: 30px;
     }
+
+
 }   
