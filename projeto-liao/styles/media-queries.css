@@ -19,8 +19,18 @@
         margin-left: 30px;
     }
 
+    .content__section h1 {
+        text-align: center;
+    }
+
     .section__grid {
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin: auto;
+    }
+
+    .section__grid .p2 {
+        margin: auto;
+        margin-top: 10px;
     }
 }   
