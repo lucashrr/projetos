@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     background-color: #000;
     background-image: url(../assets/imagens/capa-liao.jpg);
@@ -6,16 +10,16 @@ body {
 }
 
 body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
+    width: 12px;
   }
   
   body::-webkit-scrollbar-track {
-    background: var(--cor-05);        /* color of the tracking area */
+    background: var(--cor-05);
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: var(--cor-04);    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
+    background-color: var(--cor-04);
+    border-radius: 20px;
   }
 
 .bar-header {
@@ -74,11 +78,6 @@ main {
     height: 100vh;
 }
 
-.content {
-    margin-top: 70px;
-    margin-left: 55px;
-}
-
 .content .content__tible {
     padding: 25px;
     background-color: rgba(0, 0, 0, 0.404);
@@ -86,6 +85,8 @@ main {
     font-size: 3em;
     font-family: var(--font-cover);
     max-width: 500px;
+    margin-top: 70px;
+    margin-left: 55px;
 }
 
 .content .content__tible h1 {
@@ -96,5 +97,140 @@ main {
     color: var(--cor-02);
 }
 
+.content .content__section {
+    background-color: #fff;
+    margin-top: 500px;
+    padding: 70px;
+}
+
+.content .content__section h1 {
+    font-size: 2em;
+    font-family: var(--font-wolf);
+    margin-bottom: 20px;
+}
+
+.section__grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.section__grid .p2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: normal;
+    height: 300px;
+    width: 300px;
+    margin-top: 4px;
+    border: 2px solid var(--cor-02);
+    border-radius: 10px;
+}
+
+.section__grid .p2 p {
+    display: none;
+    color: #fff;
+    font-family: var(--font-cover);
+    line-height: 25px;
+}
+
+.section__grid .p2:hover p{
+    display: block;
+}
+
+.section__grid .item1 {
+    background: url(../assets/imagens/leao_do_katanga.webp);
+    background-position: center center;
+    background-size: 450px;
+}
+
+.section__grid .item1:hover {
+    background: url(../assets/imagens/leao_do_katanga-hover.webp);
+    background-position: center center;
+    background-size: 450px;
+}
 
 
+
+.section__grid .item2 {
+    background: url(../assets/imagens/leao_do_congo.webp);
+    background-position: center center;
+    background-size: 450px;
+}
+
+.section__grid .item2:hover {
+    background: url(../assets/imagens/leao_do_congo-hover.webp);
+    background-position: center center;
+    background-size: 450px;
+}
+
+
+
+.section__grid .item3 {
+    background: url(../assets/imagens/leao_sul_africano.webp);
+    background-position: center center;
+    background-size: 450px;
+}
+
+.section__grid .item3:hover {
+    background: url(../assets/imagens/leao_sul_africano-hover.webp);
+    background-position: center center;
+    background-size: 450px;
+}
+
+
+
+.section__grid .item4 {
+    background: url(../assets/imagens/leao_do_atlas.webp);
+    background-position: center center;
+    background-size: 450px;
+}
+
+.section__grid .item4:hover {
+    background: url(../assets/imagens/leao_do_atlas-hover.webp);
+    background-position: center center;
+    background-size: 450px;
+}
+
+
+
+.section__grid .item5 {
+    background: url(../assets/imagens/leao_nubio.webp);
+    background-position: center center;
+    background-size: 450px;
+}
+
+.section__grid .item5:hover {
+    background: url(../assets/imagens/leao_nubio-hover.webp);
+    background-position: center center;
+    background-size: 450px;
+}
+
+
+
+.section__grid .item6 {
+    background: url(../assets/imagens/leao_asiatico.webp);
+    background-position: left center;
+    background-size: 450px;
+}
+
+.section__grid .item6:hover {
+    background: url(../assets/imagens/leao_asiatico-hover.webp);
+    background-position: left center;
+    background-size: 450px;
+}
+
+
+
+.section__grid .item7 {
+    background: url(../assets/imagens/leao_do_senegal.webp);
+    background-position: center center;
+    background-size: 450px;
+}
+
+.section__grid .item7:hover {
+    background: url(../assets/imagens/leao_do_senegal-hover.webp);
+    background-position: center center;
+    background-size: 450px;
+}
