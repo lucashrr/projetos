@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/styles/header.css">
+    <link rel="stylesheet" href="assets/styles/vars.css">
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/login.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+<body>
+    <main>
+        <div class="div__login">
+            <a href="index.html" class="voltar">
+                <span class="fa fa-arrow-left"></span>
+                <p>Voltar</p>
+            </a>
+
+            <div style="text-align: center;">
+                <img src="assets/imagens/logo.png" alt="">
+            </div>
+
+            <div class="form__login">
+                <form action="cadastro.php" method="post">
+                    <div class="email">
+                        <label class="block" for="iemail">Email</label>
+                        <input type="email" name="email" id="iemail" required placeholder="Email">
+                    </div>
+                    <div class="sen">
+                        <label class="block" for="isen">Senha</label>
+                        <input type="password" name="sen" id="isen" required placeholder="Senha" >
+                    </div>
+
+                    <div class="check">
+                        <input type="checkbox" name="check" id="icheck"><label for="icheck">Lembre-me</label>
+                    </div>
+
+                    <div class="form__button">
+                        <input type="submit" value="Entrar">
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
